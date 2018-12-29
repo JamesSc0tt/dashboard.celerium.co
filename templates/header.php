@@ -1,9 +1,9 @@
 <div id="header">
-  <h1>dashboard.celerium.co</h1>
+  <h2>dashboard.<a href="https://celeriumaming.com/forum">celerium</a>.co</h2>
 </div>
 <div id="user-nav" class="navbar navbar-inverse">
   <ul class="nav">
-    <li class="" ><a title="" href="#"><i class="icon icon-user"></i> <span class="text">Profile</span></a></li>
+    <li class="" ><a title="" href="#" style="padding: 9px 10px 7px 10px;"><img src="<?php echo $steamprofile['avatar'] ?>" style="border-radius:50%;margin-right:5px;"> <span class="text"><?php echo $steamprofile['personaname']?></span></a></li>
     <li class=""><a title="" href="/steamauth/steamauth.php?logout"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
   </ul>
 </div>
