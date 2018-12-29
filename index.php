@@ -9,7 +9,7 @@
   $request = explode("/",strtolower($_SERVER['REQUEST_URI']));
 
   // Pages locked to login
-  $locked_pages = Array('home');
+  $locked_pages = Array('home', 'applications', 'bans', 'warnings', 'appeals', 'users', 'system');
 
   // Request variables
   $request_page = $request[1];
