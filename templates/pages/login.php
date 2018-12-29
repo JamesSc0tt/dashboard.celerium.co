@@ -12,7 +12,7 @@
       <img src="images/dashboard_logo_shadow.png">
       <h1>dashboard.<span>celerium</span>.co</h1>
       <p>Player/Staff Management Central System</p>
-      <a href=""><img src="images/sits_01.png"></a>
+      <a href="/steamauth/steamauth.php?login"><img src="images/sits_01.png"></a>
     </div>
   </body>
 </html>

@@ -1,7 +1,10 @@
+<div id="header">
+  <h1>dashboard.celerium.co</h1>
+</div>
 <div id="user-nav" class="navbar navbar-inverse">
   <ul class="nav">
     <li class="" ><a title="" href="#"><i class="icon icon-user"></i> <span class="text">Profile</span></a></li>
-    <li class=""><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+    <li class=""><a title="" href="/steamauth/steamauth.php?logout"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
   </ul>
 </div>
 <div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Home</a><ul>

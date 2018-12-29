@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Maruti Admin</title>
+<title>Dashboard - Home</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="css/maturi/bootstrap.min.css" />
@@ -12,11 +12,6 @@
 </head>
 <body>
 
-<!--Header-part-->
-<div id="header">
-  <h1>dashboard.celerium.co</h1>
-</div>
-<!--close-Header-part-->
 
 <!--top-Header-messaages-->
 <div class="btn-group rightzero"> <a class="top_message tip-left" title="Manage Files"><i class="icon-file"></i></a> <a class="top_message tip-bottom" title="Manage Users"><i class="icon-user"></i></a> <a class="top_message tip-bottom" title="Manage Comments"><i class="icon-comment"></i><span class="label label-important">5</span></a> <a class="top_message tip-bottom" title="Manage Orders"><i class="icon-shopping-cart"></i></a> </div>
