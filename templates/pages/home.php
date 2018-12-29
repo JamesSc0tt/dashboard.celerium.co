@@ -17,7 +17,7 @@
     <?php include 'templates/header.php';?>
     <div id="content">
       <div id="content-header">
-        <div id="breadcrumb"> <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a></div>
+        <div id="breadcrumb"> <a href="home" title="Go to Home" class="tip-bottom">Home</a></div>
       </div>
       <div class="row mainrow">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
@@ -28,11 +28,11 @@
     				</div>
     				<div class="card-content">
     					<h3 class="lead">
-    						A default card
+    						DarkRP Wallet
     					</h3>
     					<p>
-    						And a little description.
-    						<br> and so one
+    						<b>£0.00</b> Current Money
+    						<br> <b>£0.00</b> Total Spent
     					</p>
     				</div>
     			</div>
@@ -46,11 +46,11 @@
     				</div>
     				<div class="card-content">
     					<h3 class="lead">
-    						A default card
+    						BATM Balance
     					</h3>
     					<p>
-    						And a little description.
-    						<br> and so one
+                <b>£0.00</b> Individual Account
+    						<br> <b>£0.00</b> Group Accounts
     					</p>
     				</div>
     			</div>
@@ -64,11 +64,11 @@
     				</div>
     				<div class="card-content">
     					<h3 class="lead">
-    						A default card
+    						Warnings
     					</h3>
     					<p>
-    						And a little description.
-    						<br> and so one
+                <b>0</b> Active Warnings
+                <br> <b>4</b> Total Warnings
     					</p>
     				</div>
     			</div>
@@ -77,16 +77,15 @@
     			<div class="card card-bans">
     				<div class="shape">
     					<div class="shape-text">
-
     					</div>
     				</div>
     				<div class="card-content">
     					<h3 class="lead">
-    						A default card
+    						Bans
     					</h3>
     					<p>
-    						And a little description.
-    						<br> and so one
+                <b>0</b> Active Bans
+    						<br> <b>3</b> Expired Bans
     					</p>
     				</div>
     			</div>
@@ -95,11 +94,11 @@
       <div class="container-fluid">
        	<div class="quick-actions_homepage">
         <ul class="quick-actions">
-              <li> <a href="#"> <i class="icon-dashboard"></i> My Dashboard </a> </li>
-              <li> <a href="#"> <i class="icon-shopping-bag"></i> Shopping Cart</a> </li>
-              <li> <a href="#"> <i class="icon-web"></i> Web Marketing </a> </li>
-              <li> <a href="#"> <i class="icon-people"></i> Manage Users </a> </li>
-              <li> <a href="#"> <i class="icon-calendar"></i> Manage Events </a> </li>
+              <li> <a href="#"> <i class="icon-dashboard"></i> Game Profile </a> </li>
+              <li> <a href="#"> <i class="icon-shopping-bag"></i> Link Forum Profile</a> </li>
+              <li> <a href="#"> <i class="icon-web"></i> Refresh Steam Details </a> </li>
+              <li> <a href="#"> <i class="icon-calendar"></i> Support Requests </a> </li>
+              <li> <a href="gdpr"> <i class="icon-people"></i> GDPR JSON </a> </li>
             </ul>
        </div>
         <hr>
@@ -107,7 +106,7 @@
           <div class="span6">
             <div class="widget-box">
               <div class="widget-title"><span class="icon"><i class="icon-file"></i></span>
-                <h5>Latest Posts</h5>
+                <h5>Latest Forum Posts</h5>
               </div>
               <div class="widget-content nopadding">
                 <ul class="recent-posts">
@@ -138,7 +137,7 @@
           <div class="span6">
             <div class="widget-box">
               <div class="widget-title"> <span class="icon"> <i class="icon-refresh"></i> </span>
-                <h5>News updates</h5>
+                <h5>Server Updates</h5>
               </div>
               <div class="widget-content nopadding updates">
                 <div class="new-update clearfix"><i class="icon-ok-sign"></i>
@@ -159,8 +158,6 @@
     </div>
     </div>
     </div>
-    <div class="row-fluid">
-      <div id="footer" class="span12"> 2012 &copy; Marutii Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
-    </div>
+    <?php include 'templates/footer.php'; ?>
   </body>
 </html>
