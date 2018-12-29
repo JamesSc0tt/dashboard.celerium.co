@@ -1,12 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 * {
 	outline:none !important;
-	-moz-outline: none !important;
+	-moz-outline: none !important;font-family: 'Poppins', sans-serif;
 }
 /* Main */
 body {
 	overflow-x: hidden;
     margin-top: -10px;
+	background-color: #fff
 }
 a:hover {
 	text-decoration: none;
@@ -35,6 +37,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     position: relative;
     top:20px; 
     width: 191px;
+}
+
+#header h2 {
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	line-height: 60px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+#header h2 a {
+	color: #04bcea;
 }
 
 #header h1 a {
@@ -264,6 +278,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 #footer {
 	text-align: center;
 	color: #777777; padding:10px 0; background:#2e363f;
+	position: absolute;
+	bottom: 0px;
 }
 /* Stat boxes and quick actions */
 .quick-actions_homepage{ width:100%; text-align:center; float:left; margin-top:10px;}
@@ -1458,4 +1474,81 @@ form {
 	.dataTables_filter, .dataTables_paginate {
 		text-align: center;
 	}
+}
+
+
+.lead {
+	font-weight:bold;
+}
+.mainrow {
+	width:100%;
+	padding-left:5%;
+}
+.shape{
+	border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transform:rotate(360deg);
+}
+.col-lg-3 {
+	float:left; width: 22% !IMPORTANT; margin: 10px;
+}
+.card{
+	background:#fff; border:1px solid #ddd; overflow:hidden;
+}
+.shape {
+	border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.card-money {	border-color: #5cb85c;background-color:#baffb2; }
+.card-money .shape{
+	border-color: transparent #5cb85c transparent transparent;
+}
+.card-bank {	border-color: #21c0ed;background-color:#b2eeff; }
+.card-bank .shape{
+	border-color: transparent #21c0ed transparent transparent;
+}
+.card-warnings {	border-color: #edaf20;background-color:#ffdb89; }
+.card-warnings .shape{
+	border-color: transparent #edaf20 transparent transparent;
+}
+.card-bans {	border-color: #ff5151;background-color:#ff9e9e; }
+.card-bans .shape{
+	border-color: transparent #ff5151 transparent transparent;
+}
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}
+.card-content{
+	padding:0 20px 10px;
+}
+@media (min-width: 487px) {
+	.container {
+		max-width: 750px;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+}
+@media (min-width: 900px) {
+	.container {
+		max-width: 970px;
+	}
+	.col-md-4 {
+		width: 33.33333333333333%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+}
 }
