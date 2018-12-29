@@ -1479,6 +1479,7 @@ form {
 
 .lead {
 	font-weight:bold;
+	margin-bottom:10px;
 }
 .mainrow {
 	width:100%;
@@ -1525,6 +1526,8 @@ form {
 }
 .card-content{
 	padding:0 20px 10px;
+}
+.card-content p {
 }
 @media (min-width: 487px) {
 	.container {
