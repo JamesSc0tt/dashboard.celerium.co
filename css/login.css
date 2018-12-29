@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+    width: 800px;
+    height: 400px;
+}
+
+.container img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container a img {
+    width: 200px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin:0px;
+    margin-top:-20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: normal;
+}
+
+.container h1 span {
+    color: #04bcea;
+}
+
+.container p {
+    color:white;
+    text-align: center;
+    margin: 0px;
+}
+
+.container {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
