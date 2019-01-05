@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/maturi/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/maturi/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="css/maturi/fullcalendar.css" />
-    <link rel="stylesheet" href="css/maturi/maruti-style.css" />
-    <link rel="stylesheet" href="css/maturi/maruti-media.css" class="skin-color" />
+    <link rel="stylesheet" href="https://dashboard.celerium.co/css/maturi/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://dashboard.celerium.co/css/maturi/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="https://dashboard.celerium.co/css/maturi/fullcalendar.css" />
+    <link rel="stylesheet" href="https://dashboard.celerium.co/css/maturi/maruti-style.css" />
+    <link rel="stylesheet" href="https://dashboard.celerium.co/css/maturi/maruti-media.css" class="skin-color" />
   </head>
   <body>
     <!--top-Header-messaages-->
