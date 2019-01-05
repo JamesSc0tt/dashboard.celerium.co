@@ -1,5 +1,6 @@
 <?php
   require 'steamauth/steamauth.php';
+  require 'templates/functions/system.php';
   if(!isset($_SESSION['steamid'])) {
     $logged = false;
   } else {
@@ -20,7 +21,16 @@
   if (!$request_page or $request_page == '' or $request_page == 'index 'or $request_page == 'logout') {
     $request_page = 'home';
   }
-
+  if (GetSetting('system_locked') == 'true') {
+    if ($logged) {
+      $error = 'The system has been closed';
+      $error_details = 'The service has been closed by an administrator for the following reason: '.GetSetting('system_locked_reason');
+      include('templates/pages/error.php');
+      die;
+    } else {
+      header('Location: http://dashboard.celerium.co/login');
+    }
+  }
   if (in_array($request_page, $locked_pages)) {
     if ($logged) {
       if (!file_exists('templates/pages/'.$request_page.'.php')) {
