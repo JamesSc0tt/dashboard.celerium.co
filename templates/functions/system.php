@@ -23,6 +23,7 @@
 
   function GetSetting($name) {
     $dbconnection = DB_CONN();
+    // lol this is bad
     $statement = $dbconnection->query("SELECT * FROM db_settings WHERE `set_name` = '$name'");
     return $statement->fetchAll()[0]['set_value'];
   }
